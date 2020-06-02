@@ -1,6 +1,7 @@
-; empty asm file
+;设计一个程序，在数据段用自己的学号定义一个字符串，对该字符串中字符0~9字符出现的次数进行计数，计数结果存放在以COUNT为首地址的数组中。
+;(最好能将计数结果显示出来)。
 
-title I love asm
+title P2No3
 
 data segment
     id db '2186113847'
