@@ -1,3 +1,15 @@
+;递归子程序设计
+;给定一个正数N≥1存放在NUM单元中，试编制一递归子程序计算FIB（N），并将结果存入RESULT单元中。
+;Fibonacci数的定义如下：
+;     FIB（1）= 1
+;     FIB（2）= 1
+;     FIB（n）= FIB（n-2）+ FIB（n-1）  n>2
+;数据段中至少需要定义以下内容：
+;（1）	ID  db  xxH, yyH, zzH  (说明：以学号2186123456为例，其中的xx为12，yy为34，zz为56)
+;（2）	定义NUM、RESULT的内存单元
+
+
+
 title P3No2
 
 data segment
